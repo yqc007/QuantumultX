@@ -15,7 +15,7 @@
 
 [rewrite_local]
 
-#91视频解锁会员
+# 91视频解锁会员
 ^https?:\/\/ap\w{1}\.(weilaixushi|orientlion)\.com\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SPCrack.js
 
 [mitm] 
