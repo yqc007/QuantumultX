@@ -16,12 +16,13 @@
 
 [rewrite_local]
 
-#麻豆视频解锁会员
+# 麻豆视频解锁会员
 ^https?:\/\/api\.(md-ddd1|yh-bzd)\.com\/api\/web\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/MDSPCrack.js
 
 [mitm] 
 
 hostname = api.(md-ddd1|yh-bzd).com
+*
 *
 */
 
