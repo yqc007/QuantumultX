@@ -21,7 +21,6 @@
 [mitm] 
 
 hostname = luping.cushuikeji.cn
-
 *
 *
 */
