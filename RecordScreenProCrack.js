@@ -1,5 +1,6 @@
 /*
-
+ *
+ *
 脚本功能：录屏大师解锁会员
 软件版本：2.0.8
 软件下载：http://t.cn/A6bwldmq
@@ -10,15 +11,19 @@
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
 
-****************************
+******************************
 
 [rewrite_local]
-#录屏大师解锁会员
+
+# 录屏大师解锁会员
 ^http?:\/\/luping\.cushuikeji\.cn\/api\/v1\.user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/RecordScreenProCrack.js
 
 [mitm] 
+
 hostname = luping.cushuikeji.cn
 
+*
+*
 */
 
 
