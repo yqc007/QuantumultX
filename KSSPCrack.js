@@ -15,7 +15,7 @@
 
 [rewrite_local]
 
-#快手视频解锁会员
+# 快手视频解锁会员
 ^http:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KSSPCrack.js
 
 [mitm] 
