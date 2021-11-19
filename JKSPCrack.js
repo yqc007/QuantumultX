@@ -17,7 +17,7 @@
 
 [rewrite_local]
 
-#健康视频解锁会员
+# 健康视频解锁会员
 ^https?:\/\/apiw\.9waquan\.com\/sw2\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JKSPCrack.js
 
 [mitm] 
