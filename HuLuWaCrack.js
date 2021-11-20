@@ -30,7 +30,7 @@ hostname = api-hlw.*.com, api.lvyouynn.com, api.spinalavm.com
 
 var hausd0rff = $request.headers;
 
-    hausd0rff['X-Auth-Token'] = 'TIA:41591077:00d883edd5ccac63662148081b9838c2';
+    hausd0rff['X-Auth-Token'] = 'TIA:41591077:22e3ae487da92ace79df42941466dc24';
 
     hausd0rff['X-Client-Identity'] = 'APP/11;vz00o7;huluwa.com;3.2.0;2.8.3.6 SYS/iOS;iPhone9,2;ios FM/Apple;iPhone9%2C2 SDI/9fa7a7515ae040299e15dd8aeadf77b2 NE/4G LANG/en_CN';
 
