@@ -17,6 +17,7 @@
 
 # 91视频解锁会员
 ^https?:\/\/ap\w{1}\.(weilaixushi|orientlion|qdjdswkj)\.com\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SPCrack.js
+^https?:\/\/.*\/common\/splash_config url reject-200
 
 [mitm] 
 
