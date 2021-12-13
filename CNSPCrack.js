@@ -17,11 +17,11 @@
 [rewrite_local]
 
 # 雏鸟短视频解锁会员
-^https?:\/\/api\.v1\.chuniao\..+\/app\/api\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/CNSPCrack.js
+^https?:\/\/.+\.chuniao\..+\/app\/api\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/CNSPCrack.js
 
 [mitm] 
 
-hostname = api.v1.chuniao.*
+hostname = *.chuniao.*
 *
 *
 */
