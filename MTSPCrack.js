@@ -16,8 +16,8 @@
 [rewrite_local]
 
 # 蜜桃视频解锁无限次数
-^https?:\/\/.*\.youbangjiazheng\.com\/api\/Video\/m3u8\/id.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/MTSPCrack.js
 \/t\w{4}\/\d\/t\/ url 307 /token/aa1dceb9b04740e2c09623342303c6ef/t/
+^https?:\/\/.*\.youbangjiazheng\.com\/api\/Video\/m3u8\/id.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/MTSPCrack.js
 
 [mitm] 
 
