@@ -27,7 +27,7 @@ hostname = api.polarisoffice.com
 
 
 var body = $response.body;
-var obj = JSON.parse(body);
-obj.level = 2;
-body = JSON.stringify(obj);
+var objc = JSON.parse(body);
+objc.level = 2;
+body = JSON.stringify(objc);
 $done(body);
