@@ -19,6 +19,7 @@
 
 # 硬汉视频解锁会员
 ^https?:\/\/apiw\.sshfax\.com\/sw1\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/YHSPCrack.js
+^https?:\/\/apiw\.sshfax\.com\/sw1\/login$ url response-body token": "(.*?)" response-body token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJtZW1iZXJfaWQiOiJJTjE3NzMyOTAiLCJkZXZpY2VfaWQiOiIwNDNENkRGMi1CODVGLTQ1OUUtQjZEMC03NTBGMjI2RTMyRkQiLCJlbWFpbCI6IjEwOTQzODA1MzFAcXEuY29tIiwiZXhwIjoxNjQwMzQyMzIwfQ.q_V8EUpxdIjVcoW2wHof9tIPA1Lv0_Y8uMdTO-A3N6E"
 
 [mitm] 
 
