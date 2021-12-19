@@ -29,8 +29,8 @@ hostname = buy.itunes.apple.com
 
 var body = $response.body;
       
-    body =
-"{
+    body = 
+'{
    "status": 0,
    "environment": "Production",
    "receipt": {
@@ -96,6 +96,6 @@ var body = $response.body;
      "product_id": "yearautorenew",
      "auto_renew_status": "1"
    }]
-}";
+}';
 
 $done({body});
