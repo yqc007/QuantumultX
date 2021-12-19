@@ -2,9 +2,10 @@
  *
  *
 脚本功能：PlaneVPN解锁订阅
-软件版本：2.4.1
+软件版本：2.4.1【美区商店】
 下载地址：http://t.cn/AikaZwuP
 脚本作者：Hausd0rff
+特别鸣谢：感谢@king大佬提供的数据
 更新时间：2021.11.19
 电报频道：https://t.me/yqc_123
 问题反馈：https://t.me/yqc_007
