@@ -1,7 +1,7 @@
 /*
  *
  *
-脚本功能：Picsew解锁订阅
+脚本功能：Picsew解锁专业版
 软件版本：3.8.1
 下载地址：http://t.cn/Aig753CC
 脚本作者：Hausd0rff
@@ -16,7 +16,7 @@
 
 [rewrite_local]
 
-# Picsew解锁订阅
+# Picsew解锁专业版
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PicsewProCrack.js
 
 [mitm] 
