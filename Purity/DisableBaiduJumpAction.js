@@ -13,7 +13,7 @@
 [rewrite_local]
 
 # 百度不跳转
-^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/DisableBaiduJumpAction.js
+^https?:\/\/.*\.baidu\.com\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/Purity/DisableBaiduJumpAction.js
 
 [mitm] 
 
