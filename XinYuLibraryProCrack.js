@@ -28,9 +28,9 @@ hostname = i.xinyulib.com.cn
 
 var objc = JSON.parse($response.body);
 
-    objc.data["vipstartTime"] = "2020-09-28";
-    objc.data["vipendtime"] = "2999-09-28";
-    objc.data["trueName"] = "浥轻尘𝐶𝑟𝑎𝑐𝑘";
-    objc.data["headImg"] = "https://thirdqq.qlogo.cn/g?b=oidb&k=iaODNibZcQQTN0QPGShfkKIw&s=640";
+objc.data["vipstartTime"] = "2020-09-28";
+objc.data["vipendtime"] = "2999-09-28";
+objc.data["trueName"] = "浥轻尘𝐶𝑟𝑎𝑐𝑘";
+objc.data["headImg"] = "https://thirdqq.qlogo.cn/g?b=oidb&k=iaODNibZcQQTN0QPGShfkKIw&s=640";
 
 $done({body: JSON.stringify(objc)});
