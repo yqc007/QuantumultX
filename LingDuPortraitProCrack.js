@@ -101,7 +101,6 @@ if (urlq.indexOf(xzvk) != -1) {
     body = JSON.stringify(objc);
 }
 
-
 //  Photos Download Power
 
 if (urlq.indexOf(xzhd) != -1) {
