@@ -129,3 +129,5 @@ $done({ body });
 // If it prompts that the permissions are insufficient, please clear the cache and re-enter the application.
 
 // This cracking script is for learning and reference only, please do not use it for any commercial purposes! 
+
+// By the way, I forgot to say the most important thing is to hope everyone "Happy New Year🎉🎉🎉!".
