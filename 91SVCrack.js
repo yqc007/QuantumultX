@@ -37,10 +37,11 @@ if (objc.data.match(sivp)) {
     objc.data = svip;
     $done({body: JSON.stringify(objc)});
   } else {
-    if (objc.data.match(givp)) {
-        objc.data = gvip;
-        $done({body: JSON.stringify(objc)});
-    } else {
-        $done({});
+      if (objc.data.match(givp)) {
+          objc.data = gvip;
+          $done({body: JSON.stringify(objc)});
+      } else {
+          $done({});
   }
+
 }
