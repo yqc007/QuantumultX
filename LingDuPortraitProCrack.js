@@ -46,7 +46,7 @@ if (urlq.indexOf(hmvc) != -1) {
       "video_vip": 1,
       "status": "20000",
       "type": "success"
-    }
+    };
     body = JSON.stringify(objc);
 }
 
@@ -60,7 +60,7 @@ if (urlq.indexOf(user) != -1) {
         "user_id": "666666",
         "nick_name": "浥轻尘𝐶𝑟𝑎𝑐𝑘",
         "user_img": "image\/default\/FB9A7498351847139BB1D3A33E1ECCA5-6-2.png",
-        "background_img": "image/default/27099F8AD57A40DB95DEEFF4CB276125-6-2.png",
+        "background_img": "image\/default\/27099F8AD57A40DB95DEEFF4CB276125-6-2.png",
         "phone_number": "18811900112",
         "signature": "已破解🎃",
         "is_vip": 1
@@ -69,7 +69,7 @@ if (urlq.indexOf(user) != -1) {
         "star_count": "999",
         "fans_count": "999"
       }
-    }
+    };
     body = JSON.stringify(objc);
 }
 
@@ -79,7 +79,7 @@ if (urlq.indexOf(hlma) != -1) {
     objc = {
       "status": "20000",
       "type": "success"
-    }
+    };
     body = JSON.stringify(objc);
 }
 
@@ -90,7 +90,7 @@ if (urlq.indexOf(dlsc) != -1) {
       "is_login": 1,
       "status": "20000",
       "type": "success"
-    }
+    };
     body = JSON.stringify(objc);
 }
 
@@ -130,4 +130,4 @@ $done({ body });
 
 // This cracking script is for learning and reference only, please do not use it for any commercial purposes! 
 
-// By the way, I forgot to say the most important thing is to hope everyone "Happy New Year🎉🎉🎉!".
+// By the way, I forgot to say the most important thing is to hope everyone "Happy New Year 🎉🎉🎉!".
