@@ -27,6 +27,6 @@ hostname = www.91gao1.com
 
 
 var body = $response.body;
-var hack = /\"is_buy\":\w+/g;
-body = body.replace(hack,"\"is_buy\":true");
+var hack = /"is_buy":\w+/g;
+body = body.replace(hack,'"is_buy\":true');
 $done({body});
