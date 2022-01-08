@@ -15,8 +15,8 @@
 [rewrite_local]
 
 # 91搞网站破解收费
-^https?:\/\/www\.91gao1\.com\/api\/v1\/article\?page.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91GVCrack.js
-^https?:\/\/www\.91gao1\.com\/api\/v1\/article\?page.+ url response-body is_buy":\w+ response-body is_buy":true
+^https?:\/\/www\.91gao1\.com\/api\/v1\/article url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91GVCrack.js
+^https?:\/\/www\.91gao1\.com\/api\/v1\/article url response-body is_buy":\w+ response-body is_buy":true
 
 [mitm] 
 
