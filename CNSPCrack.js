@@ -16,7 +16,7 @@
 
 [rewrite_local]
 
-# 雏鸟短视频解锁会员
+# > 雏鸟短视频解锁会员
 ^https?:\/\/.+\.chuniao\..+\/app\/api\/.+ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/CNSPCrack.js
 
 [mitm] 
@@ -29,7 +29,7 @@ hostname = *.chuniao.*
 
 var hausd0rff = $request.headers;
 
-    hausd0rff['X-TOKEN'] = 'xOIby5DWr2tCf/OxKvnSZoHnD36X8YyzazHwXpj8r+Vqkqa30wWe5PIarCBfLcUuYQfrSQKrtwdb7Un7dQesn3opn4Dw39HpJtFipm7B7Np0SCBYKelhyBMOy9ZKbIhpWA22y6C9NxEQOk9JVEgPj+NsSTs6jq8akUhr8HshbjGzKCiZfzZA0F/LMMbfKZso/7UwZ07fA1jFcENL/6uA+24BRGIKgy6Ik4XpzQoQcgm5mTtlynxBsMIYbaKPoBq+alMkiB42qUVDUZu7JkByMYzqCVlFbsw6E+yvuFQri77a+pw1yg2jBXy4AxcaMj7WpwornuDNZ6kshyau6NgDdaRqQpjV4givLRDKgcPZoVwLeRryfvTbQYmEr/0R44RA0ZahYlrwVVbEqCSCG3iSZ3EVk84MDhgvwr7qVs/vQjgH5GWwDyQhYKwiREZpwd68lW9FjGXi2ZrnA78MOVxuIQdtnjvBoOQByYbsEP5/pzBPrOXFIDvz5wKKZkEEy1nB+/zMTU0WTbjQLdajPl8VUbsKBBwc/GOitOpuYLzHqz0p5Qrg2LBeCILn6C3HsxwZO4kYU1iorbsgqOeJGX1n6sfwPaivRLbj4+KtGOA0aCjbRlgFd46YrFfbwJVlRYvxCCcH17XGWMgSX0uRN4efdBRLQO6ysCDRvVD0Ojr+C28=';
+    hausd0rff['X-TOKEN'] = 'xOIby5DWr2tCf/OxKvnSZoHnD36X8YyzazHwXpj8r+Vqkqa30wWe5PIarCBfLcUuYQfrSQKrtwdb7Un7dQesn3opn4Dw39HpJtFipm7B7Np0SCBYKelhyBMOy9ZKbIhpWA22y6C9NxEQOk9JVEgPj+NsSTs6jq8akUhr8HshbjFHrf9ZqEhSr5D0+DbhGogXNgCp9EjEp7IS0jwtvqhsMbVR1J1lKmSAVejuJaIQw3SDpaFMjcFPbwX+ZdaXiMir6sAEpvw8Df6SYdEkK7za6v6RDb93EGCSLyoBoUhNaRIoDKkSjBdn6iFCeqGaS0ftbkuJGPN/GxpD6yoMsYkfrAQt0NMPcxi9eYaLLmOf+512RBC6HJFnAinQprcbw2uKoNjOJWw3RkXcTLUwQ/tsZ9Xf4CEU6QgUeOTJkifFes+Wo/W3TqNZFQbHoQ5wQHwIglqjg7SYbJG31PT89SFQLjbPgmFmdQ/V6e59rGrfpIcE1tJr51IV/2VIippMY2qSPQ1D6v4ZiJAHsAqVMJjLPA/HhmT6jCU5MMrOqIyIdwqC9VvMRuOcwI6s+3KPyi/rgbMxWmsgwe4p/Je3GG7LM3dMyDyZuyQ5nUAmwfVXoCuNFO0xhOVsk6pQwxe8UgtWIvEvxG6BdJ+weCoMAD32kJCzUGmoZwZNI7gAVGas86I=';
 
     hausd0rff['X-AUTHN'] = '45aebf2239f533611b172a8ecff036a3';
 
