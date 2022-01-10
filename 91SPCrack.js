@@ -3,7 +3,7 @@
  *
 脚本功能：91视频解锁会员
 软件版本：5.1.1
-下载地址：https://shrtm.nu/bssp
+下载地址：https://shrtm.nu/91sp
 脚本作者：Hausd0rff
 更新时间：2021.11.18
 电报频道：https://t.me/yqc_123
