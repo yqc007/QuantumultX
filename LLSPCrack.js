@@ -27,6 +27,6 @@ hostname = h5.502you.me
 
 var body = $response.body;
     
-    body = '{"time":"2022-01-11 23:33:39","version":"1.0","status":"y","data":"wUSfe803UxQfxrlZRjO3jDo75DFuuOFy\/mKpCeEt5vsXrIXIDf6KaPqm5jgMpdxAs\/Y27BDBVgvLghYl31bl2Da5STGT6nuoKyY06eQkDuVNywY2Tp1yxr4FMeujCYoOw7YglBt7Toc4jiJcNzDICQPUcxgEZLSNNOHGTR\/nfHRij3Lk7TwfrrVV7tATUCGR+XgteVZrwETns4WrcdNqdx7vED9nvfZFEDWZHrqF8xk\/xmVU6fJN1dzysLo9EswBXWuGSC8AZcBSVvDN+cJ5oPy5JjuqKZz1MFIBqED\/0Q\/pz7W4naJGvBoWAPq9Nwdlhg2ep55SKaPAa6JoRTzBaek5h2Y1AK8i5hqaUfBNc+KP7rF2hkufkNimP5DPRzT6FYMmaQXutUnmuEUaeu2ZKyk\/ZyK0sD3wrOSeHEH5fdQ=","sign":"00fb1de8e0693e88b085240e31ed567e"}';
+    body = '{"time":"2022-01-12 14:59:54","version":"1.0","status":"y","data":"wUSfe803UxQfxrlZRjO3jBfBW+h551+8969BXgEdoa\/J\/ar\/UGt7gV7GNWR2LL\/\/s\/Y27BDBVgvLghYl31bl2Da5STGT6nuoKyY06eQkDuXrgRVIAdwRWUoQY3Tn8ulMMFb8ufjb\/w3xgnOCVydgyAPUcxgEZLSNNOHGTR\/nfHRij3Lk7TwfrrVV7tATUCGR+XgteVZrwETns4WrcdNqdx7vED9nvfZFEDWZHrqF8xk\/xmVU6fJN1dzysLo9EswBXWuGSC8AZcBSVvDN+cJ5oPy5JjuqKZz1MFIBqED\/0Q\/pz7W4naJGvBoWAPq9Nwdlhg2ep55SKaPAa6JoRTzBaek5h2Y1AK8i5hqaUfBNc+KP7rF2hkufkNimP5DPRzT6FYMmaQXutUnmuEUaeu2ZKyk\/ZyK0sD3wrOSeHEH5fdQ=","sign":"17c9eb229a8ac2d4c954067c25839401"}';
 
 $done({body});
