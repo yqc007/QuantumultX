@@ -15,7 +15,7 @@
 
 [rewrite_local]
 
-# 新语听书解锁会员
+# > 新语听书解锁会员
 ^https?:\/\/i\.xinyulib\.com\.cn\/api\/querytoken.+ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/XinYuLibraryProCrack.js
 
 [mitm] 
@@ -33,4 +33,4 @@ objc.data["vipendtime"] = "2999-09-28";
 objc.data["trueName"] = "浥轻尘𝐶𝑟𝑎𝑐𝑘";
 objc.data["headImg"] = "https://thirdqq.qlogo.cn/g?b=oidb&k=iaODNibZcQQTN0QPGShfkKIw&s=640";
 
-$done({body: JSON.stringify(objc)});
+$done({body : JSON.stringify(objc)});
