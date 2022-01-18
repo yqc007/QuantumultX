@@ -13,4 +13,4 @@ https://t.me/yqc_123 谢谢合作！
 开源JS脚本仅供学习交流🍟，欢迎stars🌟，禁止focks🈲️，否则你将被禁止🚫！禁止商业用途🈲️，否则后果自负👻！
 
 Project Statement:
-Open source JS scripts are only for learning and communication, welcome to collect, forbid copying, otherwise you will be banned!Commercial use is prohibited, and you are responsible for the consequences!
+Open source JS scripts are only for learning and communication, welcome to collect, forbid copying, otherwise you will be banned!Commercial use is prohibited, otherwise you will bear all the consequences!
