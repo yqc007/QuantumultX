@@ -35,4 +35,4 @@ objc.data["vipState"] = {
     "expireTime" : 32495476149000
 };
 
-$done({body: JSON.stringify(objc)});
+$done({body : JSON.stringify(objc)});
