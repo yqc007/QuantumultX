@@ -1,7 +1,7 @@
 /*
  *
  *
-脚本功能：图图记账解锁高级版
+脚本功能：图图记账解锁永久高级版
 软件版本：2.3.0
 下载地址：http://t.cn/A6JZS4a0
 脚本作者：Hausd0rff
@@ -89,6 +89,5 @@ var objc = JSON.parse($response.body);
     }
   }
 };
-
 
 $done({body : JSON.stringify(objc)});
