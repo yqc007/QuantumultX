@@ -37,6 +37,7 @@ var encode_version = 'hausd0rff',
     };
     _0x19f4a6(++_0x553945);
 }(__0xd7f14, 0x92));
+$notify("\x3e \u8be5\u811a\u672c\u5df2\u6682\u65f6\u88ab\u548c\u8c10\ud83d\ude05","\x3e \u5173\u6ce8\u4f5c\u8005\x54\x47\u9891\u9053\uff1a\u83b7\u53d6\u66f4\u65b0\u901a\u77e5\u2705","\x3e \x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x79\x71\x63\x5f\x31\x32\x33");
 var _0x14e7 = function(_0x808430, _0x4b9278) {
     _0x808430 = _0x808430 - 0x0;
     var _0x469775 = __0xd7f14[_0x808430];
