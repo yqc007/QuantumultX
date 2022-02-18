@@ -15,7 +15,7 @@
 
 [rewrite_local]
 
-# FIMO解锁终身会员
+# > FIMO解锁终身会员
 ^https?:\/\/server\.yoyiapp\.com\/fimo-user\/apple\/certificate$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/FiMoCameraFVIPCrack.js
 
 [mitm] 
