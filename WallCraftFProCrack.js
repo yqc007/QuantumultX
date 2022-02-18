@@ -15,8 +15,8 @@
 
 [rewrite_local]
 
-# > WallCraft解锁专业版
-^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftProCrack.js
+# > WallCraft解锁永久专业版
+^https?:\/\/billing-ios\.wallpaperscraft\.com\/verify_receipt\/remove_ads$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/WallCraftFProCrack.js
 
 [mitm] 
 
