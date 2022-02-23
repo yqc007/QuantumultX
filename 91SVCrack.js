@@ -19,7 +19,7 @@
 
 [mitm] 
 
-hostname = *91api*
+hostname = *.91api*
 *
 *
 */
