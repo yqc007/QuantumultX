@@ -5,22 +5,21 @@
 软件版本：4.6.0
 下载地址：https://shrtm.nu/91sv
 脚本作者：Hausd0rff
-更新时间：2021.11.14
+更新时间：2021-11-14
 电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
+问题反馈：https://t.me/yqc_777
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
-
-********************************
+*******************************
 
 [rewrite_local]
 
-# 91短视频解锁会员&金币视频
+# > 91短视频解锁会员&金币视频
 ^https?:\/\/.+\.(my10api|(.*91.*))\.\w{3,4}(:\d{2,5})?\/api.php$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SVCrack.js
 
 [mitm] 
 
-hostname = interface.my91apiqc.com:8080
+hostname = *91api*
 *
 *
 */
