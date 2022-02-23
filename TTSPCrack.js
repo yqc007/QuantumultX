@@ -5,17 +5,16 @@
 软件版本：2.2.2
 下载地址：https://shrtm.nu/ttsp
 脚本作者：Hausd0rff
-更新时间：2021.11.12
+更新时间：2021-11-12
 电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
+问题反馈：https://t.me/yqc_777
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
-
-********************************
+*******************************
 
 [rewrite_local]
 
-# 汤头条解锁会员
+# > 汤头条解锁会员
 ^http:\/\/(api\w{0,1}|ttt\w{0,1})\.tbrapi\.\w{3}:\d{4}\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TTSPCrack.js
 
 [mitm] 
