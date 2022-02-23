@@ -13,10 +13,12 @@
 ********************************
 
 [rewrite_local]
-# 水蜜桃解锁会员
+
+# > 水蜜桃解锁会员
 ^https?:\/\/api\.mtaoapi006\.\w{3,4}:\d{4}\/api\.php\/api\/users\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PeachCrack.js
 
-[mitm] 
+[mitm]
+ 
 hostname = api.mtaoapi006.*
 *
 *
