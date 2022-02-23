@@ -7,16 +7,15 @@
 脚本作者：Hausd0rff
 更新时间：2021.11.10
 电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
+问题反馈：https://t.me/yqc_777
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
-
 *******************************
 
 [rewrite_local]
 
-# 快手视频解锁会员
-^http:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KSSPCrack.js
+# > 快手视频解锁会员
+^https?:\/\/v(ip|2)\.ksapi\d{3}\.me:\d{4}\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/KSSPCrack.js
 
 [mitm] 
 
