@@ -15,7 +15,7 @@
 [rewrite_local]
 
 # > 汤头条解锁会员
-^http:\/\/(api\w{0,1}|ttt\w{0,1})\.tbrapi\.\w{3}:\d{4}\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TTSPCrack.js
+^https?:\/\/(api\w{0,1}|ttt\w{0,1})\.tbrapi\.\w{3}:\d{4}\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/TTSPCrack.js
 
 [mitm] 
 
