@@ -34,13 +34,16 @@ const givp = /^[A-z0-9]{806,1208}$/;
 
 if (objc.data.match(sivp)) {
     objc.data = svip;
-    $done({body : JSON.stringify(objc)});
+    $done({
+        body: JSON.stringify(objc)
+    });
 } else {
     if (objc.data.match(givp)) {
         objc.data = gvip;
-        $done({body : JSON.stringify(objc)});
+        $done({
+            body: JSON.stringify(objc)
+        });
     } else {
         $done({});
-  }
-
+    }
 }
