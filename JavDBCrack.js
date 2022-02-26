@@ -30,7 +30,7 @@ hostname = shukego.com
 
 var hausd0rff = $request.headers;
 hausd0rff['authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MTQ0MjQ4MywidXNlcm5hbWUiOiJ5cWMwMDcifQ.EOCu_lF9TFxeZQ_2SfcwdyiU7cyBESkXiHfWBiP3k9M';
-hausd0rff['jdsignature'] = '1645884659.b1g4psngx2.b897f786b7db80528c65e74d848c674b';
+hausd0rff['jdsignature'] = '1645887913.b1g4psngx2.920d37ae051ca15fa38a98ca57baac59';
 $done({
     headers : hausd0rff
 });
