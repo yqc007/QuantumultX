@@ -11,7 +11,6 @@
 问题反馈：https://t.me/yqc_777
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
-
 *******************************
 
 [rewrite_local]
@@ -134,4 +133,6 @@ if (urlq.indexOf(info) != -1) {
     body = JSON.stringify(objc);
 }
 
-$done({ body });
+$done({ 
+    body 
+});
