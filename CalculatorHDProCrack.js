@@ -7,10 +7,9 @@
 脚本作者：Hausd0rff
 更新时间：2021.11.16
 电报频道：https://t.me/yqc_123
-问题反馈：https://t.me/yqc_007
+问题反馈：https://t.me/yqc_777
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
-
 *******************************
 
 [rewrite_local]
@@ -35,4 +34,6 @@ objc.data["vipState"] = {
     "expireTime" : 32495476149000
 };
 
-$done({body : JSON.stringify(objc)});
+$done({
+    body : JSON.stringify(objc)
+});
