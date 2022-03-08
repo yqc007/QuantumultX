@@ -1,6 +1,5 @@
-/*
- *
- *
+/******************************
+
 脚本功能：JavDB解锁会员
 软件版本：1.9.9
 官网地址：https://javdb.com/
@@ -14,19 +13,14 @@
 脚本说明：注册时填写邀请码：rckasw
         可无限延长脚本的使用期限
 *******************************
-
 [rewrite_local]
-
 # > JavDB解锁会员
 ^https?:\/\/(shukego|yiliang8888)\.com\/api\/v1\/movies\/.*\/play url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JavDBCrack.js
 
 [mitm] 
-
 hostname = shukego.com, yiliang8888.com
-*
-*
-*/
 
+*******************************/
 
 var hausd0rff = $request.headers;
 hausd0rff['authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MTQ0MjQ4MywidXNlcm5hbWUiOiJ5cWMwMDcifQ.EOCu_lF9TFxeZQ_2SfcwdyiU7cyBESkXiHfWBiP3k9M';
