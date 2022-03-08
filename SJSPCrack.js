@@ -1,6 +1,5 @@
-/*
- *
- *
+/******************************
+
 脚本功能：色界视频解锁会员
 软件版本：1.1.0
 商店地址：http://t.cn/A66vj4dl
@@ -12,21 +11,16 @@
 使用声明：⚠️此脚本仅供学习与交流，
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
-
 [rewrite_local]
-
 # > 色界视频解锁会员
 ^https?:\/\/sjapp\.o3aqqc\.work\/user\/(info|fansAndUpAndAttentionCnt)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SJSPCrack.js
 ^https?:\/\/sjapp\.o3aqqc\.work\/mov\/browse url request-header (\r\n)Authorization:.+(\r\n) request-header $1Authorization: 0547064bb9a5557d332023ab513a2e3784e38dc54f844f53cbb804d3a687c48b6c2e670c6aba3e564f$2
 ^https?:\/\/sjapp\.o3aqqc\.work\/(home\/message\/get|user\/getUserActivity|activityDialog\/getActivityDialogList|banner\/list2\?location=0|game\/programGameList) url reject-200
 
 [mitm] 
-
 hostname = sjapp.o3aqqc.work
-*
-*
-*/
 
+*******************************/
 
 var body = $response.body;
 var urlq = $request.url;
@@ -55,7 +49,7 @@ if (urlq.indexOf(user) != -1) {
         "leftViewNum": 99,
         "vipExpiredDate": "2999-09-28",
         "isShowBindInviteCode": 0,
-        "potato_url": "https://t.me/yqc_123",
+        "potato_url": "https:\/\/t.me\/yqc_123",
         "state": 1,
         "certSignStatus": 0,
         "vipEndDate": "2999-09-28",
