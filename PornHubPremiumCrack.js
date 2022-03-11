@@ -15,7 +15,7 @@
 ^https?:\/\/cn\.pornhubpremium\.com\/ url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornHubPremiumCrack.js
 
 [mitm] 
-hostname = shukego.com
+hostname = cn.pornhubpremium.com
 
 *******************************/
 
