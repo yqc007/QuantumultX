@@ -12,13 +12,13 @@
 *******************************
 [rewrite_local]
 # > 蝴蝶传媒解锁会员
-^https?:\/\/api\.gygarden\.cn\/api\/video\/play url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/ButterflyMediaCrack.js
-^https?:\/\/api\.gygarden\.cn\/api\/user\/counter\/$ url response-body .+ response-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHsMqycd2CiiqIre9ROCIv6wi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOL5Vdr5XkRNQl0fLp2V2bCXajz+D6K0UAtDV8uvQXMa5MWkiYAQyfKBOrRPb5pe5reEvA2uGw5KY45VrRVB94IV8bQwrK7osGSDD7g9i3Z6zVGGxXGDtkyIjxjQAnwaPhFzGg3NV3VXzqscjmS/ZEevb+IoK5w0yFHVI/E5DQfRvyfMY75aI7LXy4DbVSHIqO+M9Z8hekdyzbQxOrxsFG8OA/J9VxZ8pMToALEOYTJiBB2CCl5Ko7c1hi6gTQhxsIZjQFlW9G+h+Qz1qs7SVzeg==
-^https?:\/\/api\.gygarden\.cn\/user\/profile$ url request-body .+ request-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHJaI2mJm5x4HCXIISOLDXPQi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOgifMpuwtSHu7HVB+9RP2tIQA6UWKyvahbwKFvkD7X31Pn7lNw4ORVMf20XnNIzIDUVntigOg8XISbJjk8BwQxHFjYS4T9ZYE54B7o1HMr20P6z7pYbHFKgVriXTwOWUGVie3tUSlSXGLSpadG5VCLkcOkGyUrDg3q8PJ/7X4HpriW1Vi1NBrgmzIyJEq9Sx8FCm2EXoR81FQ6tT1lSke9yTg45gR7SiS6XKbjjN0bYSlrqg63hOX7iRIDNReVM1WXBLDdbTrYkrbFHjUsT122g==
-^https?:\/\/api\.gygarden\.cn\/ap(i|iv2)\/(ad\/click|notices|advert|game|subcategories\/list) url reject-200
+^https?:\/\/api\..+\.cn\/api\/video\/play url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/ButterflyMediaCrack.js
+^https?:\/\/api\..+\.cn\/api\/user\/counter\/$ url response-body .+ response-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHsMqycd2CiiqIre9ROCIv6wi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOL5Vdr5XkRNQl0fLp2V2bCXajz+D6K0UAtDV8uvQXMa5MWkiYAQyfKBOrRPb5pe5reEvA2uGw5KY45VrRVB94IV8bQwrK7osGSDD7g9i3Z6zVGGxXGDtkyIjxjQAnwaPhFzGg3NV3VXzqscjmS/ZEevb+IoK5w0yFHVI/E5DQfRvyfMY75aI7LXy4DbVSHIqO+M9Z8hekdyzbQxOrxsFG8OA/J9VxZ8pMToALEOYTJiBB2CCl5Ko7c1hi6gTQhxsIZjQFlW9G+h+Qz1qs7SVzeg==
+^https?:\/\/api\..+\.cn\/user\/profile$ url request-body .+ request-body bIEgwLM52F1dpQMqi/ViqoPQ/5DT5dSBL84CoJNnbMB3lBbylhz8EOi3ci0TwntHJaI2mJm5x4HCXIISOLDXPQi8sWOoFcVaJq01deboiA2I8/OW+qaubZoiKbke04VOgifMpuwtSHu7HVB+9RP2tIQA6UWKyvahbwKFvkD7X31Pn7lNw4ORVMf20XnNIzIDUVntigOg8XISbJjk8BwQxHFjYS4T9ZYE54B7o1HMr20P6z7pYbHFKgVriXTwOWUGVie3tUSlSXGLSpadG5VCLkcOkGyUrDg3q8PJ/7X4HpriW1Vi1NBrgmzIyJEq9Sx8FCm2EXoR81FQ6tT1lSke9yTg45gR7SiS6XKbjjN0bYSlrqg63hOX7iRIDNReVM1WXBLDdbTrYkrbFHjUsT122g==
+^https?:\/\/api\..+\.cn\/ap(i|iv2)\/(ad\/click|notices|advert|game|subcategories\/list) url reject-200
 
 [mitm] 
-hostname = api.gygarden.cn
+hostname = api.gygarden.cn, api.xminiapp.cn
 
 *******************************/
 
