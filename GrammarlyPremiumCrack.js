@@ -22,7 +22,7 @@ hostname = subscription.grammarly.com
 var body = $response.body;
 var objc = JSON.parse(body);
 
-objc.vips = {
+objc = {
   "isPremium": true,
   "nextPayDate": "Oct 28, 2999 4:56:52 AM",
   "isCancelled": false,
