@@ -1,6 +1,6 @@
 /******************************
 
-脚本功能：欲漫涩解锁会员漫画
+脚本功能：欲漫涩解锁会员漫画&视频
 软件版本：2.0.4
 下载地址：https://shrtm.nu/ymse
 脚本作者：Hausd0rff
@@ -11,8 +11,9 @@
         请勿转载与贩卖！⚠️⚠️⚠️
 *******************************
 [rewrite_local]
-# > 欲漫涩解锁会员漫画
+# > 欲漫涩解锁会员漫画&视频
 ^https?:\/\/.*\.com\/api\/app\/user\/info$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornComicsCrack.js
+^https?:\/\/.*\.com\/api\/app\/media url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/PornVideosCrack.js
 
 [mitm] 
 hostname = zjgeo.eqobc.com, xnour.xonap.com, opzzy.kefsww.com, tqrbq.mpckv.com
