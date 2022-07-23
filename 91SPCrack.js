@@ -4,7 +4,7 @@
 下载地址：https://shrtm.nu/91sp
 脚本作者：Hausd0rff
 特别鸣谢：感谢@PayNe大神提供的帮助
-更新时间：2022-03-08
+更新时间：2022-07-22
 电报频道：https://t.me/yqc_123
 问题反馈：https://t.me/yqc_777
 使用声明：⚠️仅供学习交流，🈲️商业用途
@@ -12,7 +12,7 @@
 [rewrite_local]
 # > 91视频解锁会员
 ^https?:\/\/ap\w{1,4}\.(weilaixushi|orientlion|qdjdswkj|0954auto|xmblgg)\.com\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SPCrack.js
-^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY0NTI4NDUxOSwiZXhwIjoxNjYwODM2NTE5fQ.eyJpZCI6NDg1NTM2fQ.XuVjZoS-WMwlOFWOPOOhfkJb9v7BRj5x6IUSagdbbEK96pVws6kpvEG4QK9BErNmTf1guoBXLPbU_h9vxVIQRA$2
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY1ODU4NzYxMSwiZXhwIjoxNjc0MTM5NjExfQ.eyJpZCI6OTg1MTU4MDV9.fA63_1SLzMNKvknO3Mcz2K-swMbrEe4rBW7HtlpH0hFcexF_5zXs6B9quX0LMJTKJyR5y2zBkHskOEjhr-ME6Q$2
 ^https?:\/\/.*\/(common\/splash_config|m_user\/(check_phone|behavior_verification_code)) url reject-200
 
 [mitm] 
