@@ -19,6 +19,9 @@ hostname = m2u-api.getkwai.com
 
 *******************************/
 
+var body = $response.body;
+var objc = JSON.parse(body);
+
 objc = {
   "status" : 0,
   "data" : {
