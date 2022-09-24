@@ -15,8 +15,8 @@
 *******************************
 [rewrite_local]
 # > JavDB解锁会员
-^https?:\/\/.+\.com\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JavDBCrack.js
-^https?:\/\/.+\.com\/api\/v1\/ads$ url reject-200
+^https?:\/\/.+\/api\/v1\/(movies\/.*\/play|startup) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JavDBCrack.js
+^https?:\/\/.+\/api\/v1\/ads$ url reject-200
 
 [mitm] 
 hostname = shukego.com, yiliang8888.com, 91mingyang.com, mnter.com, f5bc.club
