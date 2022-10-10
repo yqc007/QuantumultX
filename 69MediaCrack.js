@@ -21,12 +21,10 @@ hostname = tu5.twittme.net
 
 $done({
     body: JSON.stringify({
-        {
-            "code": 0,
-            "message": "ok",
-            "content": {
-                "data": 0
-            }
+        "code": 0,
+        "message": "ok",
+        "content": {
+            "data": 0
         }
     })
 });
