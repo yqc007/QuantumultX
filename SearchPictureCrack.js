@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 搜图神器解锁会员
-^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token$ script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SearchPictureCrack.js
+^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SearchPictureCrack.js
 
 [mitm] 
 hostname = wallpaper.soutushenqi.com
