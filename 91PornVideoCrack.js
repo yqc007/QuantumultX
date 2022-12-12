@@ -1,22 +1,25 @@
 /******************************
 
-脚本功能：91视频解锁会员
-下载地址：https://shrtm.nu/91sp
+脚本功能：91视频解锁会员权限
+软件版本：7.0.1
+下载地址：https://shrtm.nu/91porn
 脚本作者：Hausd0rff
-特别鸣谢：感谢@PayNe大神提供的帮助
-更新时间：2022-07-22
+更新时间：2022-12-12
 电报频道：https://t.me/yqc_123
 问题反馈：https://t.me/yqc_777
+特别鸣谢：感谢@PayNe大神提供的帮助
 使用声明：⚠️仅供学习交流，🈲️商业用途
+
 *******************************
+
 [rewrite_local]
-# > 91视频解锁会员
-^https?:\/\/ap\w{1,4}\.(weilaixushi|orientlion|qdjdswkj|0954auto|xmblgg)\.com\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91SPCrack.js
-^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY1ODU4NzYxMSwiZXhwIjoxNjc0MTM5NjExfQ.eyJpZCI6OTg1MTU4MDV9.fA63_1SLzMNKvknO3Mcz2K-swMbrEe4rBW7HtlpH0hFcexF_5zXs6B9quX0LMJTKJyR5y2zBkHskOEjhr-ME6Q$2
+# > 91视频解锁会员权限
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/91PornVideoCrack.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header (\r\n)X-AUTH-TOKEN:.+(\r\n) request-header $1X-AUTH-TOKEN: eyJhbGciOiJIUzUxMiIsImlhdCI6MTY3MDg0MTYwMSwiZXhwIjoxNjg2MzkzNjAxfQ.eyJpZCI6MTEyNDM1MTY0fQ.cDXTx14EaNf1TJzihOxOoIB4lyfwKnNNSrXbDiBj43kXzkzkqfftQRAqE23WTCuxQ45VYB-1IadrwxG_t3QoNA$2
 ^https?:\/\/.*\/(common\/splash_config|m_user\/(check_phone|behavior_verification_code)) url reject-200
 
 [mitm] 
-hostname = app.weilaixushi.com, api.orientlion.com, app.qdjdswkj.com, api.0954auto.com, appapi.xmblgg.com
+hostname = app.weilaixushi.com, api.orientlion.com, app.qdjdswkj.com, api.0954auto.com, appapi.xmblgg.com, api.czbt.cc, api.jtshuzhiwa.com, appapi.17gwl.com, api.saiyijiaju.com, api.ddoukids.com, appapi.mnghx.info, appapi.zdxclr.com
 
 *******************************/
 
