@@ -13,7 +13,7 @@
 
 [rewrite_local]
 # > 过期啦解锁永久订阅
-^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{36})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OopsExpiredProCrack.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/.{24})$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/OopsExpiredProCrack.js
 
 [mitm] 
 hostname = api.revenuecat.com
