@@ -1,6 +1,6 @@
 /******************************
 
-脚本功能：1Blocker解锁永久订阅
+脚本功能：1Blocker 解锁永久订阅
 软件版本：5.3.3
 下载地址：http://t.cn/A6KnWtUu
 脚本作者：Passer_by_yun
@@ -12,7 +12,7 @@
 *******************************
 
 [rewrite_local]
-# > 过期啦解锁永久订阅
+# > 1Blocker 解锁永久订阅
 ^https?:\/\/api\.revenuecat\.com\/v1\/(receipts|subscribers\/) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/1BlockerProCrack.js
 
 [mitm] 
