@@ -1,0 +1,25 @@
+/******************************
+
+脚本功能：91视频解锁永久会员
+应用版本：7.5.0
+应用下载：https://bit.ly/43Gofr5
+脚本作者：Hausd0rff
+更新时间：2023-06-02
+脚本发布：https://t.me/yqc_123
+使用声明：‼️脚本仅供学习交流, 🈲️商业用途
+*******************************
+[rewrite_local]
+# > 91视频解锁永久会员
+^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornVideoCrack.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornMediaCrack.js
+^https?:\/\/.*\/(common\/(splash_config|homepage\/official_website_popup)|m_user\/(check_phone|behavior_verification_code)) url reject-200
+[mitm] 
+hostname = appapi.zdxclr.com, appapi.17gwl.com, appapi.mnghx.info, api.cxznl.com, api.jinhuachuangxin.com, api.shizhongruyi.com, c0d4b0d6567d54aabb92d02300a8bc36.com
+
+*******************************/
+
+var body = $response.body;
+body = "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";
+$done({
+    body
+});
