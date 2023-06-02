@@ -11,7 +11,7 @@
 [rewrite_local]
 # > 91视频解锁永久会员
 ^https?:\/\/.*\/m_user\/info url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornVideoCrack.js
-^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornMediaCrack.js
+^https?:\/\/.*\/m_sns\/(film|video|short_video)\/(film_detail|detail_list|apply_play) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/JiuYiPornMediaCrack.js
 ^https?:\/\/.*\/(common\/(splash_config|homepage\/official_website_popup)|m_user\/(check_phone|behavior_verification_code)) url reject-200
 [mitm] 
 hostname = appapi.zdxclr.com, appapi.17gwl.com, appapi.mnghx.info, api.cxznl.com, api.jinhuachuangxin.com, api.shizhongruyi.com, c0d4b0d6567d54aabb92d02300a8bc36.com
