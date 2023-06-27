@@ -12,7 +12,7 @@
 # > 爱酱视频破解超级至尊会员
 ^https?:\/\/c\.h5aj.*\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LoveChanVideoCrack.js
 [mitm] 
-hostname = c.h5ajww.com, c.h5aj66.com, c.h5aj88.com
+hostname = c.h5ajcc.com, c.h5ajss.com, c.h5ajww.com, c.h5aj66.com, c.h5aj88.com
 
 *******************************/
 
