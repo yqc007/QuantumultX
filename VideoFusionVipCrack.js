@@ -10,9 +10,9 @@
 *******************************
 [rewrite_local]
 # > 剪映解锁会员
-^https?:\/\/commerce-api-lq\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js
+^https?:\/\/commerce-api-lq\.faceu\.mobi\/commerce\/v1\/(subscription\/user_info|purchase\/draft_unlock|effect\/check_effects) url script-request-header https://raw.githubusercontent.com/yqc007/QuantumultX/master/VideoFusionVipCrack.js
 [mitm] 
-hostname = commerce-api-lq.faceu.mobi
+hostname = api3-lq.faceu.mobi, commerce-api-lq.faceu.mobi, lv-api-lq.ulikecam.com
 
 *******************************/
 
