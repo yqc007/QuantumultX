@@ -10,9 +10,9 @@
 *******************************
 [rewrite_local]
 # > 私房 TV 破解超级至尊会员
-^https?:\/\/c\.sifangklund\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SecretsMediaCrack.js
+^https?:\/\/c\.sifang.*\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/SecretsMediaCrack.js
 [mitm] 
-hostname = c.sifangklund.com, dd.sifang*.com
+hostname = c.sifangklund.com, c.sifangzhej.com, c.sifang*.com, dd.sifang*.com
 
 *******************************/
 
