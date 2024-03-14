@@ -11,6 +11,7 @@
 [rewrite_local]
 # > 神话 Live Purify & Crack VIP
 ^https?:\/\/api\.sh88992\.com\/api\/video\/(user\/data|picture)$ url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/ShenhuaLiveCrack.js
+^https?:\/\/api\.sh88992\.com\/api\/video\/ad|banner|config\?field=notice url reject-200
 [mitm] 
 hostname = api.sh88992.com
 ******************************************/
